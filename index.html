@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <div id="app">
+    <div class="header center">
+        <div class="header__content">
+            <a href="#" class="header__logo">
+                <img src="img/logo.svg" alt="logo" class="header__logo-img">Interno
+            </a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Project</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <blog></blog>
+    <footer class="footer center">
+        <div class="footer__content">
+            <div class="footer__items">
+                <div class="footer__item">
+                    <a href="#" class="footer__logo">
+                        <img src="img/logo.svg" alt="logo" class="footer__logo-img">Interno
+                    </a>
+                    <p class="footer__item-text">It is a long established fact that a reader will be distracted lookings.</p>
+                    <ul class="footer__icons-box">
+                        <li class="footer__icon-item">
+                            <a href="#" class="footer__icon-link">
+                                <img src="img/twitter.svg" alt="twitter logo" class="footer__social-img">
+                            </a>
+                        </li>
+                        <li class="footer__icon-item">
+                            <a href="#" class="footer__icon-link">
+                                <img src="img/in.svg" alt="in logo" class="footer__social-img">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <p class="footer__item-heading">Pages</p>
+                    <nav class="footer__item-nav">
+                        <ul class="footer__list">
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link">Home</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link">Project</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__item">
+                    <p class="footer__item-heading">Contact</p>
+                    <p class="footer__contact-address">55 East Birchwood Ave. Brooklyn, New York 11201</p>
+                    <a href="mailto:contact@interno.com" class="footer__contact-email">contact@interno.com</a>
+                    <a href="tel:1234567890" class="footer__contact-phone">(123) 456 - 7890</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>  
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="components.js"></script>
+    <script>
+        new Vue({
+            el: '#app'
+        })
+    </script>
+</body>
+</html>
